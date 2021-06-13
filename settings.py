@@ -29,12 +29,12 @@ BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 DEBUG = True
 
 # debug leancloud验证
-LC_APPID = "nSyYINNelN3OJdAbblDVNWM1-MdYXbMMI"
-LC_APPKEY = "yxmDsLg0reOEa0DXfW8cfnee"
+LC_APPID = "5fgyRlQa9ggpYSaBnR3ueQF4-MdYXbMMI"
+LC_APPKEY = "6YKvkiuPep1BsJMWc7OO5KTb"
 
 # debug 测试用的博客地址
 # FRIENPAGE_LINK = "https://nekodeng.gitee.io/friends/"
-FRIENPAGE_LINK = "https://zhangyazhuang.gitee.io/link/"
+FRIENPAGE_LINK = "https://blog.slqwq.cn/link/"
 # FRIENPAGE_LINK = "https://blog.raxianch.moe/link"
 
 """
@@ -43,9 +43,9 @@ FRIENPAGE_LINK = "https://zhangyazhuang.gitee.io/link/"
 # 网页请求器
 # TODO 未实装
 # 超时(单位:秒)
-TIMEOUT = 10
-SSL = False
-RETRY_MAX = 5
+TIMEOUT = 20
+SSL = True
+RETRY_MAX = 10
 
 
 
@@ -54,25 +54,26 @@ RETRY_MAX = 5
 """
 # github友链配置
 github_friends_links = {
-    "enable": False,    # True 开启gitee issue兼容
+    "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "Zfour",  # 填写你的github用户名
-    "repo": "zfour-friends",  # 填写你的github仓库名
+    "owner": "ladjeek-actions",  # 填写你的github用户名
+    "repo": "friendget",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
 # gitee友链配置
 gitee_friends_links = {
-    "enable": False,    # True 开启gitee issue兼容
+    "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "Zfour",  # 填写你的github用户名
-    "repo": "zfour-friends",  # 填写你的github仓库名
+    "owner": "slqwq",  # 填写你的github用户名
+    "repo": "Friends",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
 # 屏蔽站点
 BLOCK_SITE = [
     "https://example.com/",
+    "https:/baidu.com",
 ]
 
 # 屏蔽sitemap链接关键词
