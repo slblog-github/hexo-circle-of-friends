@@ -44,7 +44,7 @@ FRIENPAGE_LINK = "https://zhangyazhuang.gitee.io/link/"
 # TODO 未实装
 # 超时(单位:秒)
 TIMEOUT = 10
-SSL = False
+SSL = True
 RETRY_MAX = 5
 
 
@@ -54,19 +54,19 @@ RETRY_MAX = 5
 """
 # github友链配置
 GITHUB_FRIENDS_LINKS = {
-    "enable": False,    # True 开启gitee issue兼容
+    "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "Zfour",  # 填写你的github用户名
-    "repo": "zfour-friends",  # 填写你的github仓库名
+    "owner": "ladjeek-actions,  # 填写你的github用户名
+    "repo": "friendget",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
 # gitee友链配置
 GITEE_FRIENDS_LINKS = {
-    "enable": False,    # True 开启gitee issue兼容
+    "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "Zfour",  # 填写你的github用户名
-    "repo": "zfour-friends",  # 填写你的github仓库名
+    "owner": "slqwq",  # 填写你的github用户名
+    "repo": "Friends",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
