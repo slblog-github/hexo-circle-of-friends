@@ -56,7 +56,7 @@ RETRY_MAX = 5
 GITHUB_FRIENDS_LINKS = {
     "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "ladjeek-actions,  # 填写你的github用户名
+    "owner": "ladjeek-actions",  # 填写你的github用户名
     "repo": "friendget",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
