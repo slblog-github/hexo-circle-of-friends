@@ -54,19 +54,19 @@ RETRY_MAX = 3
 """
 # github友链配置
 GITHUB_FRIENDS_LINKS = {
-    "enable": False,    # True 开启gitee issue兼容
+    "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "Zfour",  # 填写你的github用户名
-    "repo": "zfour-friends",  # 填写你的github仓库名
+    "owner": "ladjeek-actions",  # 填写你的github用户名
+    "repo": "friendget",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
 # gitee友链配置
 GITEE_FRIENDS_LINKS = {
-    "enable": False,    # True 开启gitee issue兼容
+    "enable": Ture,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
-    "owner": "Zfour",  # 填写你的github用户名
-    "repo": "zfour-friends",  # 填写你的github仓库名
+    "owner": "SLQWQ",  # 填写你的github用户名
+    "repo": "Friends",  # 填写你的github仓库名
     "state": "open"  # 填写抓取的issue状态(open/closed)
 }
 
