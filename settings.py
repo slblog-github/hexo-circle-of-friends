@@ -63,7 +63,7 @@ GITHUB_FRIENDS_LINKS = {
 
 # gitee友链配置
 GITEE_FRIENDS_LINKS = {
-    "enable": Ture,    # True 开启gitee issue兼容
+    "enable": True,    # True 开启gitee issue兼容
     "type": "normal",  # volantis用户请在这里填写 volantis
     "owner": "SLQWQ",  # 填写你的github用户名
     "repo": "Friends",  # 填写你的github仓库名
